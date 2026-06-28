@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RSAH — Recruit Screening Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <div class="logo">RSAH <span>Recruit Screening Agent</span></div>
+    <div class="job-selector">
+      <label for="job-select">Role:</label>
+      <select id="job-select"></select>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- Batch Summary -->
+  <section class="summary" id="summary">
+    <div class="summary-card advance">
+      <div class="summary-number" id="count-advance">0</div>
+      <div class="summary-label">Advance :large_green_circle:</div>
+    </div>
+    <div class="summary-card hold">
+      <div class="summary-number" id="count-hold">0</div>
+      <div class="summary-label">Hold :large_yellow_circle:</div>
+    </div>
+    <div class="summary-card reject">
+      <div class="summary-number" id="count-reject">0</div>
+      <div class="summary-label">Do Not Advance :red_circle:</div>
+    </div>
+    <div class="summary-meta">
+      <span id="total-count">0</span> candidates screened ·
+      Last updated: <span id="last-updated">—</span>
+    </div>
+  </section>
+
+  <!-- Controls -->
+  <section class="controls">
+    <input type="text" id="search" placeholder="Search by name…" />
+    <div class="filter-buttons">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="advance">:large_green_circle: Advance</button>
+      <button class="filter-btn" data-filter="hold">:large_yellow_circle: Hold</button>
+      <button class="filter-btn" data-filter="do_not_advance">:red_circle: Do Not Advance</button>
+    </div>
+    <button class="benchmark-toggle" id="benchmark-toggle">:clipboard: Show Benchmark</button>
+  </section>
+
+  <!-- Benchmark Panel -->
+  <section class="benchmark-panel hidden" id="benchmark-panel">
+    <h2>Ideal Candidate Profile <span class="beta-tag">INTERNAL — DO NOT SHOW TO CANDIDATES</span></h2>
+    <div id="benchmark-content"></div>
+  </section>
+
+  <!-- Ranked Shortlist -->
+  <section class="shortlist">
+    <h2>Ranked Shortlist</h2>
+    <div id="candidate-list"></div>
+  </section>
+
+</main>
+
+<footer>
+  RSAH · Powered by Hermes Agent · Final hiring decisions are made by humans, not the agent
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
