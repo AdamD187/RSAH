@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "job_id": "job-001",
+    "last_updated": "2026-06-28T00:00:00Z",
+    "total": 3
+  },
+  "candidates": [
+    {
+      "id": "cand-001",
+      "name": "Ahmad Razif",
+      "applied_role": "Senior Software Engineer",
+      "overall_score": 78,
+      "group": "advance",
+      "criterion_scores": [
+        {"criterion_id": "crit-1", "score": 3, "label": "Strong",   "evidence": "7 years professional software engineering across fintech and e-commerce sectors (CV: Experience)."},
+        {"criterion_id": "crit-2", "score": 3, "label": "Strong",   "evidence": "Expert in Python (Django, FastAPI) and JavaScript (Node.js, React). 15+ production microservices built (CV: Projects)."},
+        {"criterion_id": "crit-3", "score": 2, "label": "Adequate", "evidence": "2 years AWS experience (EC2, S3, Lambda). CI/CD with GitHub Actions documented (CV: Skills). Kubernetes not explicitly mentioned."},
+        {"criterion_id": "crit-4", "score": 3, "label": "Strong",   "evidence": "Led redesign of microservices architecture serving 2M daily active users (CV: Experience — current role)."},
+        {"criterion_id": "crit-5", "score": 2, "label": "Adequate", "evidence": "Mentored 2 junior developers informally. No formal people-management experience stated (CV: Leadership — vague)."},
+        {"criterion_id": "crit-6", "score": 2, "label": "Adequate", "evidence": "Contributed to technical blog. Documentation habits mentioned but not detailed (CV: Activities)."}
+      ],
+      "strong_qualifications": [
+        "7 years professional experience — well above typical senior threshold",
+        "Expert-level Python and JavaScript — directly matches core technical requirement",
+        "Microservices redesign at scale (2M DAU) — strong system design evidence"
+      ],
+      "missing_requirements": [
+        "Kubernetes — NOT MENTIONED in CV (distinguish from 'does not have')",
+        "Formal people-management — implied but not explicitly stated"
+      ],
+      "potential_concerns": [
+        "AWS only — GCP/Azure not mentioned. Interview verification recommended.",
+        "Leadership claims informal — confirm scope of mentorship at interview."
+      ],
+      "human_review_flags": [
+        "Borderline: Cloud/DevOps is Adequate, not Strong — may need second look if role is cloud-heavy."
+      ]
+    },
+    {
+      "id": "cand-002",
+      "name": "Siti Nurhaliza",
+      "applied_role": "Senior Software Engineer",
+      "overall_score": 55,
+      "group": "hold",
+      "criterion_scores": [
+        {"criterion_id": "crit-1", "score": 2, "label": "Adequate", "evidence": "3 years software development experience (CV: Experience). One role was QA-focused, not pure engineering."},
+        {"criterion_id": "crit-2", "score": 2, "label": "Adequate", "evidence": "Proficient in Java and SQL. JavaScript mentioned but no framework experience stated (CV: Skills)."},
+        {"criterion_id": "crit-3", "score": 1, "label": "Weak",     "evidence": "Docker mentioned in one sentence — no cloud platforms, CI/CD, or infrastructure details (CV: Skills). Requires interview verification."},
+        {"criterion_id": "crit-4", "score": 1, "label": "Weak",     "evidence": "No system design content in CV. No distributed systems, scalability, or architecture decisions. Requires interview verification."},
+        {"criterion_id": "crit-5", "score": 0, "label": "Absent",   "evidence": "No leadership, mentorship, or team management mentioned anywhere in CV."},
+        {"criterion_id": "crit-6", "score": 2, "label": "Adequate", "evidence": "Presented at one internal tech talk. Documentation habits not explicitly described (CV: Activities)."}
+      ],
+      "strong_qualifications": [
+        "Solid Java and SQL fundamentals",
+        "QA-adjacent experience may bring stronger testing discipline"
+      ],
+      "missing_requirements": [
+        "Cloud/DevOps — NOT MENTIONED in CV",
+        "System design — NOT MENTIONED in CV",
+        "Leadership/mentorship — NOT MENTIONED in CV"
+      ],
+      "potential_concerns": [
+        "QA-heavy background may indicate a different career trajectory",
+        "Multiple Weak scores with no evidence to verify — interview essential before advancing",
+        "3 years experience is at the lower end for a senior role"
+      ],
+      "human_review_flags": [
+        "Score 55% — in Hold band (40–69%)",
+        "Multiple Absent/Weak scores — human review required before any interview offer",
+        "Unverifiable system design and DevOps claims — require live interview probing"
+      ]
+    },
+    {
+      "id": "cand-003",
+      "name": "Danial Imran",
+      "applied_role": "Senior Software Engineer",
+      "overall_score": 22,
+      "group": "do_not_advance",
+      "criterion_scores": [
+        {"criterion_id": "crit-1", "score": 1, "label": "Weak",   "evidence": "1 year internship experience only (CV: Experience). No full-time professional engineering roles listed."},
+        {"criterion_id": "crit-2", "score": 1, "label": "Weak",   "evidence": "Basic Python and HTML/CSS knowledge listed (CV: Skills). No framework, database, or API experience stated."},
+        {"criterion_id": "crit-3", "score": 0, "label": "Absent", "evidence": "No mention of cloud platforms, DevOps tools, CI/CD, or containerisation anywhere in CV."},
+        {"criterion_id": "crit-4", "score": 0, "label": "Absent", "evidence": "No system design, architecture, or distributed systems content in CV."},
+        {"criterion_id": "crit-5", "score": 0, "label": "Absent", "evidence": "No leadership or mentorship experience mentioned. No team projects described in detail."},
+        {"criterion_id": "crit-6", "score": 1, "label": "Weak",   "evidence": "GitHub link provided but no readme or documentation projects visible (CV: Contact). Communication skills not evidenced."}
+      ],
+      "strong_qualifications": [
+        "Shows genuine interest in software engineering (personal projects mentioned)"
+      ],
+      "missing_requirements": [
+        "Professional experience — NOT MENTIONED (only internships)",
+        "Cloud/DevOps — NOT MENTIONED in CV",
+        "System design — NOT MENTIONED in CV",
+        "Leadership — NOT MENTIONED in CV"
+      ],
+      "potential_concerns": [
+        "1 year internship is significantly below the 5+ year expectation for a senior role",
+        "No framework or production-quality code evidence",
+        "Multiple Absent scores across all critical criteria"
+      ],
+      "human_review_flags": [
+        "Score 22% — well below 40% Do Not Advance threshold",
+        "Would not recommend for interview at this time",
+        "Candidate may be better suited for a junior/intern position — revisit for future openings"
+      ]
+    }
+  ]
+}
