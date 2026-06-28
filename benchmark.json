@@ -1,0 +1,11 @@
+{
+  "note": "IDEAL CANDIDATE PROFILE — keep SEPARATE from scoring. Do NOT show to candidates during evaluation.",
+  "benchmark": {
+    "years_experience": "5+ years professional software engineering",
+    "technical": "Expert in at least one backend language (Python/Java/Go). Comfortable with REST APIs, databases, and message queues.",
+    "cloud_devops": "3+ years AWS or GCP. CI/CD with GitHub Actions/Jenkins. Docker and Kubernetes proficiency.",
+    "system_design": "Can design horizontally scalable systems. Understands CAP theorem, caching strategies, and microservices patterns.",
+    "leadership": "Has mentored 2+ junior developers. Has led a project end-to-end or a small team.",
+    "communication": "Produces thorough technical documentation. Has worked with cross-functional teams."
+  }
+}
