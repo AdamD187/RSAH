@@ -1,0 +1,23 @@
+json
+{
+  "jobs": [
+    {
+      "id": "job-001",
+      "title": "Senior Software Engineer",
+      "department": "Engineering",
+      "location": "Kuala Lumpur, Malaysia",
+      "description": "We are looking for a Senior Software Engineer to design, build, and maintain scalable backend services. You will work closely with product and data teams to deliver high-quality software solutions.",
+      "evaluation_criteria": [
+        {"id": "crit-1", "name": "Years of Experience",     "weight": 1, "max_score": 3, "description": "Professional software engineering experience"},
+        {"id": "crit-2", "name": "Technical Skills",        "weight": 2, "max_score": 3, "description": "Proficiency in required languages/frameworks (e.g., Python, JavaScript, Java)"},
+        {"id": "crit-3", "name": "Cloud & DevOps",          "weight": 1, "max_score": 3, "description": "Experience with AWS/GCP/Azure, CI/CD pipelines, containerisation"},
+        {"id": "crit-4", "name": "System Design",           "weight": 1, "max_score": 3, "description": "Ability to design scalable, reliable distributed systems"},
+        {"id": "crit-5", "name": "Leadership & Mentorship", "weight": 1, "max_score": 3, "description": "Experience leading teams, mentoring junior engineers"},
+        {"id": "crit-6", "name": "Communication",           "weight": 1, "max_score": 3, "description": "Clear written and verbal communication; documentation habits"}
+      ],
+      "strong_threshold": 70,
+      "hold_min": 40,
+      "hold_max": 69
+    }
+  ]
+}
