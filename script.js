@@ -15,9 +15,9 @@ const groupClass  = { advance: 'advance', hold: 'hold', do_not_advance: 'reject
 
 async function load() {
   const [candidates, jobs, benchmark] = await Promise.all([
-    fetch('data/candidates.json').then(r => r.json()).catch(() => ({ meta: {}, candidates: [] })),
-    fetch('data/jobs.json').then(r => r.json()).catch(() => ({ jobs: [] })),
-    fetch('data/benchmark.json').then(r => r.json()).catch(() => null)
+    fetch('candidates.json').then(r => r.json()).catch(() => ({ meta: {}, candidates: [] })),
+    fetch('jobs.json').then(r => r.json()).catch(() => ({ jobs: [] })),
+    fetch('benchmark.json').then(r => r.json()).catch(() => null)
   ]);
 
   state.candidates = candidates.candidates || [];
